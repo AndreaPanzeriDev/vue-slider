@@ -21,7 +21,7 @@
 
     <!--App-->
     <div id="app">
-        <i class="fa-solid fa-arrow-left"></i>
+        <i @click="goBack" class="fa-solid fa-arrow-left"></i>
         <img :src="image[position].landscape" alt="landscape" class="w-100">
         <i @click="goOn" class="fa-solid fa-arrow-right"></i>
     </div>
